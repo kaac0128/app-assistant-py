@@ -1,0 +1,21 @@
+#brain-mode{
+    cursor: pointer;
+}
+
+.active-brain-mode{
+    color: green !important;
+}
+
+.elianto{
+    font-family: 'Elianto';
+    src: url('../fonts/Elianto/Elianto-Regular.ttf');
+}
+
+.contain-panel{
+    width: 27em;
+    margin: auto;
+}
+
+.title-notes{
+    text-align: center;
+}
