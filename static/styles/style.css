@@ -2,13 +2,12 @@
     cursor: pointer;
 }
 
-.active-brain-mode{
-    color: green !important;
+.none-bar{
+    display: flex;
 }
 
-.elianto{
-    font-family: 'Elianto';
-    src: url('../fonts/Elianto/Elianto-Regular.ttf');
+.active-brain-mode{
+    color: green !important;
 }
 
 .contain-panel{
@@ -19,3 +18,83 @@
 .title-notes{
     text-align: center;
 }
+
+.start-bar{
+    text-align: start;
+    display: inline-block;
+    width: 49%;
+}
+
+.end-bar{
+    text-align: end;
+    display: inline-block;
+    width: 49%;
+}
+
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.chat {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-height: 25em;
+    overflow: auto;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.message img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.message .text {
+    background-color: #FFF;
+    padding: 8px 12px;
+    border-radius: 15px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#user-input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#microphone-btn {
+    font-size: 20px;
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.font-body{
+    font-family: 'Elianto';
+    src: url('../fonts/Elianto/Elianto-Regular.ttf');
+}
+
+.end-logo{
+    justify-content: end;
+}
+
+body {background-color:#000000 !important; color:#555555;}

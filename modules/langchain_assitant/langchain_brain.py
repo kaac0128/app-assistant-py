@@ -1,11 +1,5 @@
 import dotenv
 
-from langchain.chat_models import ChatOpenAI
-#from langchain.prompts.chat import (
-#    ChatPromptTemplate,
-#    SystemMessagePromptTemplate,
-#    HumanMessagePromptTemplate,
-#)
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain, SimpleSequentialChain
 from langchain.agents import load_tools, initialize_agent, AgentType
